@@ -624,7 +624,7 @@ function Header() {
 function Hero() {
   const { sm, lg } = useBp();
   return (
-    <section id="home" style={{ position: "relative", overflow: "hidden", background: C.blue950 }}>
+    <section id="home" style={{ position: "relative", overflow: "hidden", background: "rgb(23 37 84 / 41%);" }}>
       <img
         src={IMG.hero}
         alt="Students working in the science laboratory"
@@ -634,7 +634,7 @@ function Hero() {
         style={{
           position: "absolute",
           inset: 0,
-          background: `linear-gradient(to right, ${C.blue950}, rgba(23,37,84,.8), transparent)`,
+          background: "linear-gradient(to right, rgb(23 37 84 / 70%), rgb(23 37 84 / 51%), transparent)",
         }}
       />
       <Container
